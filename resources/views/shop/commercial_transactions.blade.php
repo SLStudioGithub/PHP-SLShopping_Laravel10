@@ -1,0 +1,68 @@
+@extends('layouts.shop_layout')
+@section('title', 'shop commercial_transactions')
+@include('shop.header')
+@section('content')
+<article class="commercial-transactions container">
+    <div>
+        <header>
+            <h1>特定商取引に関する法律に基づく表記</h1>
+        </header>
+        <section>
+            <table class="table table-striped">
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <th>販売業者</th>
+                        <td>SLスタジオ</td>
+                    </tr>
+                    <tr>
+                        <th>運営統括責任者</th>
+                        <td>佐藤 太郎</td>
+                    </tr>
+                    <tr>
+                        <th>所在地</th>
+                        <td>東京都千代田区丸の内１丁目</td>
+                    </tr>
+                    <tr>
+                        <th>連絡先</th>
+                        <td>sl-shopping-example@example.com</td>
+                    </tr>
+                    <tr>
+                        <th>商品代金以外の必要料金</th>
+                        <td>消費税・送料</td>
+                    </tr>
+                    <tr>
+                        <th>申し込みの有効期限</th>
+                        <td>原則、受注確認（受注確認の為の自動送信メール発信）後、5日間とします。</td>
+                    </tr>
+                    <tr>
+                        <th>不良品</th>
+                        <td>商品到着日から7日間以内に生じました初期不良に付きましては交換にて対応をいたします。</td>
+                    </tr>
+                    <tr>
+                        <th>販売数量</th>
+                        <td>特に指定はありあせん。（商品によって設定あり）</td>
+                    </tr>
+                    <tr>
+                        <th>引き渡し時期</th>
+                        <td>ご注文受付後、7日以内にお届けいたします。<br>天候不順・配送業者の都合・その他何らかの理由により<br>遅延する場合はメール等でお知らせいたします。</td>
+                    </tr>
+                    <tr>
+                        <th>お支払い方法</th>
+                        <td>代金引換、クレジットカード</td>
+                    </tr>
+                    <tr>
+                        <th>返品期限</th>
+                        <td>商品の返品・交換には初期不良の場合以外では応じられません。</td>
+                    </tr>
+                    <tr>
+                        <th>返品送料</th>
+                        <td>お客様の理由によるご返品は一切受け付けておりません。<br>万一発送中の破損、不良品、ご注文内容と誤りがあった場合はご注文いただいたものと同じ商品、もしくは同等商品と交換をさせていただきます。<br>返品送料につきましては、不良品、欠品等の場合は当社負担、上記以外はお客様負担とさせていただきます。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    <div>
+</article>
+@endsection
+@include('shop.footer')
